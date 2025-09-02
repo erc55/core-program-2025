@@ -50,6 +50,7 @@ This is a complete list of contributions made by the program participants.
 
 | Project Name                                                                                                     | Project Description |
 | :--------------------------------------------------------------------------------------------------------------- | :------------------ |
+| [RISC Zero REVM Integration](#risc-zero-revm-integration) 🇧🇷                                                      | Zero-knowledge EVM bytecode execution using RISC Zero zkVM and revm library. |
 | [Project 1](#project-1) 🇧🇷                                                                                       | One-line description of your project. |
 | [Project 2](#project-2) 🇧🇷                                                                                       | One-line description of your project. |
 | [Project 3](#project-3) 🇧🇷                                                                                       | One-line description of your project. |
@@ -60,7 +61,6 @@ This is a complete list of contributions made by the program participants.
 | [Project 8](#project-8) 🇧🇷                                                                                       | One-line description of your project. |
 | [Project 9](#project-9) 🇧🇷                                                                                       | One-line description of your project. |
 | [Project 10](#project-10) 🇧🇷                                                                                     | One-line description of your project. |
-| [RISC Zero REVM Integration](#risc-zero-revm-integration) 🇧🇷                                                      | Zero-knowledge EVM bytecode execution using RISC Zero zkVM and revm library. |
 
 ---
 
@@ -350,7 +350,7 @@ This project demonstrates the integration between RISC Zero zkVM and the revm Et
 - Create auditing tools for contract behavior verification
 
 **GitHub Link:**
-[https://github.com/aviggiano/risc0/tree/main/examples/revm](https://github.com/aviggiano/risc0/tree/main/examples/revm)
+[https://github.com/aviggiano/risc0/pull/1](https://github.com/aviggiano/risc0/pull/1)
 
 **Other Links:**
 N/A
