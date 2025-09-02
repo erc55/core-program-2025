@@ -60,6 +60,7 @@ This is a complete list of contributions made by the program participants.
 | [Project 8](#project-8) 🇧🇷                                                                                       | One-line description of your project. |
 | [Project 9](#project-9) 🇧🇷                                                                                       | One-line description of your project. |
 | [Project 10](#project-10) 🇧🇷                                                                                     | One-line description of your project. |
+| [RISC Zero REVM Integration](#risc-zero-revm-integration) 🇧🇷                                                      | Zero-knowledge EVM bytecode execution using RISC Zero zkVM and revm library. |
 
 ---
 
@@ -320,5 +321,38 @@ Paragraph describing the project.
 
 **Other Links:**
 https://your-demo-video-url
+
+---
+
+### RISC Zero REVM Integration
+
+**Contributors:**
+
+- Antonio Viggiano - [@aviggiano](https://github.com/aviggiano)
+
+**Project Description:**
+This project demonstrates the integration between RISC Zero zkVM and the revm Ethereum Virtual Machine library, enabling zero-knowledge proof generation for EVM bytecode execution. The implementation showcases how to execute smart contracts privately while maintaining verifiable correctness through zkSNARKs, opening possibilities for private smart contract execution, EVM-compatible rollups, cross-chain verification, and auditing tools.
+
+**Technical Stack:**
+
+- Rust
+- RISC Zero zkVM
+- revm (Rust EVM implementation)
+- Ethereum Virtual Machine
+- Zero-Knowledge Proofs (zkSNARKs)
+
+**Project Goals:**
+
+- Demonstrate seamless integration between RISC Zero and revm
+- Enable private smart contract execution with proof generation
+- Provide foundation for EVM-compatible zero-knowledge applications
+- Showcase cross-chain verification capabilities
+- Create auditing tools for contract behavior verification
+
+**GitHub Link:**
+[https://github.com/aviggiano/risc0/tree/main/examples/revm](https://github.com/aviggiano/risc0/tree/main/examples/revm)
+
+**Other Links:**
+N/A
 
 
