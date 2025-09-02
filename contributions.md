@@ -50,6 +50,7 @@ This is a complete list of contributions made by the program participants.
 
 | Project Name                                                                                                     | Project Description |
 | :--------------------------------------------------------------------------------------------------------------- | :------------------ |
+| [RISC Zero REVM Integration](#risc-zero-revm-integration) 🇧🇷                                                      | Zero-knowledge EVM bytecode execution using RISC Zero zkVM and revm library. |
 | [Project 1](#project-1) 🇧🇷                                                                                       | One-line description of your project. |
 | [Project 2](#project-2) 🇧🇷                                                                                       | One-line description of your project. |
 | [Project 3](#project-3) 🇧🇷                                                                                       | One-line description of your project. |
@@ -320,5 +321,42 @@ Paragraph describing the project.
 
 **Other Links:**
 https://your-demo-video-url
+
+---
+
+### RISC Zero REVM Integration
+
+**Contributors:**
+
+- Antonio Viggiano - [@aviggiano](https://github.com/aviggiano)
+
+**Project Description:**
+This project demonstrates the integration between RISC Zero zkVM and the revm Ethereum Virtual Machine library, enabling zero-knowledge proof generation for EVM bytecode execution. The implementation showcases how to execute smart contracts privately while maintaining verifiable correctness through zkSNARKs, opening possibilities for private smart contract execution, EVM-compatible rollups, cross-chain verification, and auditing tools.
+
+The main objective of this proof-of-concept is to showcase how a Zero-Knowledge Bug Bounty Program (ZKBBP) can be built. In such a system, a whitehat proves knowledge of a private bytes input $I$ that, when sent to a public function $F$ on public bytecode $B$, produces a public $true$ output. The proof reveals only commitments (hashes of code and calldata), ensuring the exploit input remains secret until disclosure is negotiated. Verifiers (on-chain or off-chain) can check the ZK receipt and be assured the claim is valid without ever learning the exploit itself. 
+
+This minimal implementation provides the scaffold for building more advanced ZKBBPs where: Arbitrary EVM bytecode can be executed under proof, vulnerability classes can be modeled as verifiable predicates, and payout mechanisms can be automated on-chain once proofs are verified.
+
+**Technical Stack:**
+
+- Rust
+- RISC Zero zkVM
+- revm (Rust EVM implementation)
+- Ethereum Virtual Machine
+- Zero-Knowledge Proofs (zkSNARKs)
+
+**Project Goals:**
+
+- Demonstrate seamless integration between RISC Zero and revm
+- Enable private smart contract execution with proof generation
+- Provide foundation for EVM-compatible zero-knowledge applications
+- Showcase cross-chain verification capabilities
+- Create auditing tools for contract behavior verification
+
+**GitHub Link:**
+[https://github.com/aviggiano/risc0/pull/1](https://github.com/aviggiano/risc0/pull/1)
+
+**Other Links:**
+N/A
 
 
