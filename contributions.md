@@ -112,7 +112,7 @@ This minimal implementation provides the scaffold for building more advanced ZKB
 - Create auditing tools for contract behavior verification
 
 **GitHub Link:**
-[https://github.com/aviggiano/risc0/pull/1](https://github.com/aviggiano/risc0/pull/1)
+[https://github.com/risc0/risc0/pull/3412](https://github.com/risc0/risc0/pull/3412)
 
 **Other Links:**
 N/A
