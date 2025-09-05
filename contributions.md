@@ -146,7 +146,7 @@ ZK Air Drop enables any eligible user to privately claim tokens from an airdrop 
 - Provide a simple web interface for proof generation and claiming
 
 **GitHub Link:**
-[https://github.com/afa7789/zk-air-drope](https://github.com/afa7789/zk-air-drope)
+[https://github.com/afa7789/zk-token-distributor](https://github.com/afa7789/zk-token-distributor)
 
 **Other Links:**
 N/A
