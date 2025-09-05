@@ -117,4 +117,36 @@ This minimal implementation provides the scaffold for building more advanced ZKB
 **Other Links:**
 N/A
 
+---
 
+### ZK Air Drop
+
+**Contributors:**
+
+- Arthur F. Abeilice - [@afa7789](https://github.com/afa7789)
+
+**Project Description:**
+ZK Air Drop enables any eligible user to privately claim tokens from an airdrop using zero-knowledge proofs and Merkle trees. The user’s wallet address is included in the Merkle tree, and a ZK proof is generated off-chain to prove eligibility without revealing the full list or identity. The proof can be used to claim tokens from any wallet, anywhere, ensuring privacy and flexibility for claimants.
+
+**Technical Stack:**
+
+- Solidity
+- Circom
+- Next.js
+- TypeScript
+- Ethers.js
+- Foundry
+- Zero-Knowledge Proofs (Groth16) snarkjs
+
+**Project Goals:**
+
+- Allow private, universal token claims for airdrops
+- Enable proof generation for any wallet address in the Merkle tree
+- Prevent double-claims and Sybil attacks with ZK verification
+- Provide a simple web interface for proof generation and claiming
+
+**GitHub Link:**
+[https://github.com/afa7789/zk-token-distributor](https://github.com/afa7789/zk-token-distributor)
+
+**Other Links:**
+N/A
