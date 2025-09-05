@@ -52,6 +52,7 @@ This is a complete list of contributions made by the program participants.
 | :--------------------------------------------------------------------------------------------------------------- | :------------------ |
 | [TEMPLATE](#template) 🇧🇷                                                                                          | One-line description of your project. |
 | [RISC Zero REVM Integration](#risc-zero-revm-integration) 🇧🇷                                                      | Zero-knowledge EVM bytecode execution using RISC Zero zkVM and revm library. |
+| [ZK Air Drop](#zk-air-drop) 🇧🇷                                                                                       | Private airdrop claims using zero-knowledge proofs and Merkle trees. |
 
 ---
 
