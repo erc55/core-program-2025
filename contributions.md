@@ -53,6 +53,7 @@ This is a complete list of contributions made by the program participants.
 | [TEMPLATE](#template) 🇧🇷                                                                                          | One-line description of your project. |
 | [RISC Zero REVM Integration](#risc-zero-revm-integration) 🇧🇷                                                      | Zero-knowledge EVM bytecode execution using RISC Zero zkVM and revm library. |
 | [ZK Air Drop](#zk-air-drop) 🇧🇷                                                                                       | Private airdrop claims using zero-knowledge proofs and Merkle trees. |
+| [Circom circuit verification in Clean](#circom-circuit-verification-with-clean)                                 | Verification of Circom circuits in Clean |
 
 ---
 
@@ -79,7 +80,6 @@ Paragraph describing the project.
 
 **Other Links:**
 https://your-demo-video-url
-
 
 ---
 
@@ -151,3 +151,41 @@ ZK Air Drop enables any eligible user to privately claim tokens from an airdrop 
 
 **Other Links:**
 N/A
+
+---
+
+### Circom circuit verification with Clean
+
+**Contributors:**
+
+- Christiano Braga - [@christianobraga](https://github.com/ChristianoBraga)
+- Semar Augusto Martins - [@semaraugusto](https://github.com/semaraugusto)
+
+**Project Description:**
+
+ZK circuit verification is a major task in software engineering for ZK protocols. Given a verification framework, one needs to:
+1. specify the circuit in the framework specification language;
+2. state the pre and post-conditions of the circuit (as in [Hoare Logic](https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/tony-hoare/logic.html));
+3. prove the circuit's soundness and completeness using the verification framework. Quoting [https://blog.zksecurity.xyz/posts/clean/](https://blog.zksecurity.xyz/posts/clean/):
+- Soundness: if the prover can exhibit any witness that satisfies the constraints and lookup relations defined by the circuit, then some specification property holds over that witness. Proving this property ensures that the circuit is not underconstrained.
+- Completeness: for every possible input, an honest prover can always exhibit a witness that satisfies the constraints and lookup relations defined by the circuit. Proving this property ensures that the circuit is not overconstrained.
+
+We took a deep dive in Lean 4 and Clean in the 2nd. half of the program and interacted with Clean's team to understand their approach. These interactions lead to jointly concluding the specification and proof (of soundness and completeness) of Circomlib's [`Num2Bits`](https://github.com/Verified-zkEVM/clean/blob/62eb4edde2855c0403df9ad7e8d0c0a391958103/Clean/Circomlib/Bitify.lean#L135). Our team alone [proved](https://github.com/ChristianoBraga/clean/blob/ff2f656a325c974dfcf3ec9df4795584db85a36f/Clean/Circomlib/Comparators.lean#L46) the soundness and completeness of Circom's circuit [`IsZero`](https://github.com/Verified-zkEVM/clean/blob/62eb4edde2855c0403df9ad7e8d0c0a391958103/Clean/Circomlib/Comparators.lean#L14). This lead to [PR 265](https://github.com/Verified-zkEVM/clean/pull/265) at Clean's github.
+
+**Technical Stack:**
+
+- [Lean 4](https://lean-lang.org/)
+- [Clean](https://github.com/Verified-zkEVM/clean/) 
+
+**Project Goals:**
+
+1. Prove Circom circuits sound and complete.
+2. Learn about theorem proving with Clean.
+
+**GitHub Link:**
+
+[https://github.com/ChristianoBraga/clean](https://github.com/ChristianoBraga/clean)
+
+**Other Links:**
+
+None
