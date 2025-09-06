@@ -53,6 +53,7 @@ This is a complete list of contributions made by the program participants.
 | [TEMPLATE](#template) 🇧🇷                                                                                          | One-line description of your project. |
 | [RISC Zero REVM Integration](#risc-zero-revm-integration) 🇧🇷                                                      | Zero-knowledge EVM bytecode execution using RISC Zero zkVM and revm library. |
 | [ZK Air Drop](#zk-air-drop) 🇧🇷                                                                                       | Private airdrop claims using zero-knowledge proofs and Merkle trees. |
+| [Farewell](#farewell) 🇧🇷                                                                                       | Farewell is a proof-of-concept dApp that allows people to leave posthumous encrypted messages to their loved ones. |
 
 ---
 
@@ -151,3 +152,33 @@ ZK Air Drop enables any eligible user to privately claim tokens from an airdrop 
 
 **Other Links:**
 N/A
+
+---
+
+### Farewell
+
+**Contributors:**
+
+- Pedro G. M. R. Alves - [@pdroalves](https://www.iampedro.com)
+
+**Project Description:**
+Farewell is a proof-of-concept dApp that allows people to leave posthumous encrypted messages for their loved ones. Using blockchain smart contracts combined with [fhEVM](https://github.com/zama-ai/fhevm), the system securely stores secret shares of keys and encrypted payloads. A “check-in” mechanism ensures that messages are only released after a period of user inactivity, making Farewell a cryptographic time capsule designed to endure for decades.
+
+**Technical Stack:**
+
+- Solidity
+- Hardhat
+- fhEVM
+- React (frontend)
+
+**Project Goals:**
+
+- Provide a reliable and private mechanism for leaving encrypted messages that will only be released after death or prolonged inactivity.
+- Leverage blockchain persistence and cryptography to ensure fairness, security, and decentralization.
+- Explore integration of FHE and ZK proofs (e.g., ZKMail) for privacy-preserving proofs of delivery.
+
+**GitHub Link:**
+[github.com/pdroalves/farewell](https://github.com/pdroalves/farewell)
+
+**Other Links:**
+[Working demo](https://www.iampedro.com/farewell-react)
