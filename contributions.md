@@ -55,6 +55,7 @@ This is a complete list of contributions made by the program participants.
 | [ZK Air Drop](#zk-air-drop) 🇧🇷                                                                                       | Private airdrop claims using zero-knowledge proofs and Merkle trees. |
 | [Farewell](#farewell) 🇧🇷                                                                                       | Farewell is a proof-of-concept dApp that allows people to leave posthumous encrypted messages to their loved ones. |
 | [Circom circuit verification in Clean](#circom-circuit-verification-with-clean)                                 | Verification of Circom circuits in Clean |
+| [Post-Quantum Smart Account](#post-quantum-smart-account) 🇧🇷                                                      | Smart Account (EIP-4337 Account Abstraction) that uses post-quantum cryptography (PQC) signatures |
 
 ---
 
@@ -220,3 +221,36 @@ We took a deep dive in Lean 4 and Clean in the 2nd. half of the program and inte
 **Other Links:**
 
 None
+
+---
+
+### Post-Quantum Smart Account
+
+**Contributors:**
+
+- Flavio de Freitas Gouvea Neto - [@freitasgouvea](https://github.com/freitasgouvea)
+
+**Project Description:**
+
+This project implements a Smart Account (EIP-4337 Account Abstraction) that uses post-quantum cryptography (PQC) signatures for transaction authorization. Instead of verifying heavy PQC signatures directly on-chain, the verification is performed off-chain and proven through a zero-knowledge proof (ZK). The smart contract only validates the proof, ensuring that the account owner has authorized the UserOperation. This approach combines quantum resistance, efficiency, and compatibility with Ethereum infrastructure.
+
+**Technical Stack:**
+
+- Go (PQC key generation and signature)
+- Dilithium (NIST PQC standard)
+- Zero-Knowledge proof framework (TBD)
+- Solidity (Smart Account contract implementation)
+- Ethereum (EIP-4337 Account Abstraction)
+
+**Project Goals:**
+
+- Implement PQC-based signature generation in Go for UserOperations.
+- Develop a ZK circuit to prove PQC signature validity without revealing computation.
+- Adapt a Smart Account contract to integrate the ZK verifier.
+- Demonstrate an end-to-end flow: UserOperation → PQC Signature → ZK Proof → On-chain Verification → Transaction Execution.
+
+**GitHub Links:**
+
+[PQ Signer](https://github.com/freitasgouvea/pq-signer-go)
+
+
