@@ -179,10 +179,10 @@ Farewell is a proof-of-concept dApp that allows people to leave posthumous encry
 - Explore integration of FHE and ZK proofs (e.g., ZKMail) for privacy-preserving proofs of delivery.
 
 **GitHub Link:**
-[github.com/pdroalves/farewell](https://github.com/pdroalves/farewell)
+[github.com/pdroalves/farewell-core](https://github.com/pdroalves/farewell-core)
 
 **Other Links:**
-[Working demo](https://www.iampedro.com/farewell-react)
+[Live demo](https://www.iampedro.com/farewell)
 
 ---
 
