@@ -54,7 +54,7 @@ This is a complete list of contributions made by the program participants.
 | [RISC Zero REVM Integration](#risc-zero-revm-integration) 🇧🇷                                                      | Zero-knowledge EVM bytecode execution using RISC Zero zkVM and revm library. |
 | [ZK Air Drop](#zk-air-drop) 🇧🇷                                                                                       | Private airdrop claims using zero-knowledge proofs and Merkle trees. |
 | [Farewell](#farewell) 🇧🇷                                                                                       | Farewell is a proof-of-concept dApp that allows people to leave posthumous encrypted messages to their loved ones. |
-| [Circom circuit verification in Clean](#circom-circuit-verification-with-clean)                                 | Verification of Circom circuits in Clean |
+| [Circom circuit verification in Clean](#circom-circuit-verification-with-clean) 🇧🇷                                | Verification of Circom circuits in Clean |
 | [Post-Quantum Smart Account](#post-quantum-smart-account) 🇧🇷                                                      | Smart Account (EIP-4337 Account Abstraction) that uses post-quantum cryptography (PQC) signatures |
 
 ---
