@@ -56,6 +56,8 @@ This is a complete list of contributions made by the program participants.
 | [Farewell](#farewell) 🇧🇷                                                                                       | Farewell is a proof-of-concept dApp that allows people to leave posthumous encrypted messages to their loved ones. |
 | [Circom circuit verification in Clean](#circom-circuit-verification-with-clean) 🇧🇷                                | Verification of Circom circuits in Clean |
 | [Post-Quantum Smart Account](#post-quantum-smart-account) 🇧🇷                                                      | Smart Account (EIP-4337 Account Abstraction) that uses post-quantum cryptography (PQC) signatures |
+| [zkintro Portuguese Translation](#zkintro-portuguese-translation) 🇧🇷                                              | Translation of zkintro's first chapter to Brazilian Portuguese. |
+| [FHE VWAP Auction (FHEVM Full-Stack)](#fhe-vwap-auction) 🇧🇷                                    | Privacy-preserving batch auction on EVM using FHE; computes VWAP on-chain. |
 
 ---
 
@@ -253,4 +255,67 @@ This project implements a Smart Account (EIP-4337 Account Abstraction) that uses
 
 [PQ Signer](https://github.com/freitasgouvea/pq-signer-go)
 
+---
 
+### zkintro Portuguese Translation
+
+**Contributors:**
+
+- Thiago Rocha - [@thiagorochatr](https://thiagorochatr.com)
+
+**Project Description:**
+Translated the first chapter of `zkintro` into Brazilian Portuguese, preserving the original structure and formatting to improve accessibility for Portuguese-speaking readers.
+
+**Technical Stack:**
+
+- Markdown
+- Git
+- GitHub
+
+**Project Goals:**
+
+- Provide a high-quality PT-BR translation for zkintro's first chapter
+- Maintain parity with the original and update as upstream evolves
+
+**GitHub Link:**
+[https://github.com/zkintro/zkintro/pull/4](https://github.com/zkintro/zkintro/pull/4)
+
+**Other Links:**
+https://zkintro.com/
+
+---
+
+### FHE VWAP Auction
+
+**Contributors:**
+
+- Thiago Rocha - [@thiagorochatr](https://thiagorochatr.com)
+
+**Project Description:**
+Privacy-preserving batch auction using Fully Homomorphic Encryption (FHE) on EVM. Sellers escrow Base tokens; buyers submit bids with encrypted prices. The VWAP (Volume-Weighted Average Price) is computed homomorphically on-chain and revealed via the FHEVM decryption oracle. Settlement occurs at the final public VWAP.
+
+**Technical Stack:**
+
+- Solidity
+- Hardhat
+- FHEVM 0.8.x
+- @zama-fhe/relayer-sdk (frontend)
+- Next.js
+- Tailwind CSS
+- TypeScript
+- Node.js (>= 20)
+- MetaMask (EIP-6963)
+
+**Project Goals:**
+
+- Implement an FHE-based VWAP batch auction on EVM
+- Perform on-chain encrypted aggregation with single oracle decryption
+- Provide a full-stack monorepo and generated ABIs for the frontend
+- Support localhost and Sepolia deployments with tests and coverage
+- Ship a usable dApp with MetaMask integration and network helpers
+
+**GitHub Link:**
+[https://github.com/thiagorochatr/FHEVWAP](https://github.com/thiagorochatr/FHEVWAP)
+
+**Other Links:**
+N/A
