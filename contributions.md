@@ -58,6 +58,7 @@ This is a complete list of contributions made by the program participants.
 | [Post-Quantum Smart Account](#post-quantum-smart-account) 🇧🇷                                                      | Smart Account (EIP-4337 Account Abstraction) that uses post-quantum cryptography (PQC) signatures |
 | [zkintro Portuguese Translation](#zkintro-portuguese-translation) 🇧🇷                                              | Translation of zkintro's first chapter to Brazilian Portuguese. |
 | [FHE VWAP Auction (FHEVM Full-Stack)](#fhe-vwap-auction) 🇧🇷                                    | Privacy-preserving batch auction on EVM using FHE; computes VWAP on-chain. |
+| [ZKCMP](#zkcmp) 🇧🇷 | Zero-knowledge Consent-Management CLI that issues, proves and verifies data-sharing consent totally offline with the Polygon ID JS-SDK. |
 
 ---
 
@@ -319,3 +320,38 @@ Privacy-preserving batch auction using Fully Homomorphic Encryption (FHE) on EVM
 
 **Other Links:**
 N/A
+
+---
+
+### ZKCMP
+
+**Contributors:**
+
+- Diogo Silveira Mendonça – [@diogosmendonca](https://github.com/diogosmendonca)
+
+**Project Description:**
+
+ZKCMP (Zero-Knowledge Consent-Management Platform) is a TypeScript CLI that demonstrates the entire consent life-cycle with zero-knowledge proofs.  
+It issues a ConsentCredential containing hashed Brazilian CPF/CNPJ (or any national IDs), generates five AtomicQuerySigV2 proofs, and verifies them—all without touching a blockchain.  
+Optionally, the public Merkle-tree state can be persisted to MongoDB so proofs remain valid across sessions.
+
+**Technical Stack:**
+
+- TypeScript / Node.js  
+- Polygon ID JS-SDK  
+- Poseidon / Groth16 circuits (`.wasm` + `.zkey`)  
+- MongoDB (optional persistence)  
+- tsx, Inquirer, chalk (CLI UX)
+
+**Project Goals:**
+
+- Provide a reference implementation for privacy-preserving data-sharing consent.
+- Let companies prove—without revealing DIDs—which data fields were authorised and when, shielding them from liability if a third-party processor is breached.
+
+**GitHub Link:**
+
+<https://github.com/diogosmendonca/zkcmp>
+
+**Other Links:**
+
+*(none)*
