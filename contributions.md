@@ -1,49 +1,5 @@
 # Core Program Brazil 2025: Contributions
 
-## How to add your project (PR template)
-
-Note: Maintain the existing formatting exactly.
-
-- Add a row to the table in "Core Program Brazil 2025 Projects" linking to your section.
-- Append your full project section at the end of the file using the template.
-- Keep spacing, headings, and list styles unchanged. Do not reformat existing content.
-
-Anchor rule: Use your section heading text in lowercase with spaces replaced by hyphens. Example: `### ZK Multiverse` → `#zk-multiverse`.
-
-Table row template (copy and edit):
-```markdown
-| [Your Project Name](#your-project-name) 🇧🇷 | Short description of your project. |
-```
-
-Project section template (append at file end):
-```markdown
----
-
-### Your Project Name
-
-**Contributors:**
-
-- Full Name - [@handle](link)
-
-**Project Description:**
-Paragraph describing the project.
-
-**Technical Stack:**
-
-- List your technologies here
-
-**Project Goals:**
-
-- Goal 1
-- Goal 2
-
-**GitHub Link:**
-[https://github.com/your-org/your-repo](https://github.com/your-org/your-repo)
-
-**Other Links:**
-https://your-demo-video-url (optional)
-```
-
 ## **Core Program Brazil 2025 Projects**
 
 This is a complete list of contributions made by the program participants.
