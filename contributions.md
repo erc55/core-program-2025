@@ -1,47 +1,18 @@
 # Core Program Brazil 2025: Contributions
 
-## **Core Program Brazil 2025 Projects**
-
 This is a complete list of contributions made by the program participants.
 
 | Project Name                                                                                                     | Project Description |
 | :--------------------------------------------------------------------------------------------------------------- | :------------------ |
-| [TEMPLATE](#template) 🇧🇷                                                                                          | One-line description of your project. |
 | [RISC Zero REVM Integration](#risc-zero-revm-integration) 🇧🇷                                                      | Zero-knowledge EVM bytecode execution using RISC Zero zkVM and revm library. |
 | [ZK Air Drop](#zk-air-drop) 🇧🇷                                                                                       | Private airdrop claims using zero-knowledge proofs and Merkle trees. |
 | [Farewell](#farewell) 🇧🇷                                                                                       | Farewell is a proof-of-concept dApp that allows people to leave posthumous encrypted messages to their loved ones. |
-| [Circom circuit verification in Clean](#circom-circuit-verification-with-clean) 🇧🇷                                | Verification of Circom circuits in Clean |
+| [Circom circuit verification with Clean](#circom-circuit-verification-with-clean) 🇧🇷                                | Verification of Circom circuits in Clean |
 | [Post-Quantum Smart Account](#post-quantum-smart-account) 🇧🇷                                                      | Smart Account (EIP-4337 Account Abstraction) that uses post-quantum cryptography (PQC) signatures |
 | [zkintro Portuguese Translation](#zkintro-portuguese-translation) 🇧🇷                                              | Translation of zkintro's first chapter to Brazilian Portuguese. |
 | [FHE VWAP Auction (FHEVM Full-Stack)](#fhe-vwap-auction) 🇧🇷                                    | Privacy-preserving batch auction on EVM using FHE; computes VWAP on-chain. |
 | [ZKP Minicourse](#zkp-minicourse) 🇧🇷 | ZKP minicourse in Portuguese aiming at the presentation at SBC |
 | [ZKCMP](#zkcmp) 🇧🇷 | Zero-knowledge Consent-Management CLI that issues, proves and verifies data-sharing consent totally offline with the Polygon ID JS-SDK. |
-
----
-
-### [TEMPLATE]
-
-**Contributors:**
-
-- Full Name - [@handle](link)
-
-**Project Description:**
-Paragraph describing the project.
-
-**Technical Stack:**
-
-- List your technologies here
-
-**Project Goals:**
-
-- Goal 1
-- Goal 2
-
-**GitHub Link:**
-[https://github.com/your-org/your-repo](https://github.com/your-org/your-repo)
-
-**Other Links:**
-https://your-demo-video-url
 
 ---
 
@@ -175,12 +146,10 @@ We took a deep dive in Lean 4 and Clean in the 2nd. half of the program and inte
 2. Learn about theorem proving with Clean.
 
 **GitHub Link:**
-
 [https://github.com/ChristianoBraga/clean](https://github.com/ChristianoBraga/clean)
 
 **Other Links:**
-
-None
+N/A
 
 ---
 
@@ -191,7 +160,6 @@ None
 - Flavio de Freitas Gouvea Neto - [@freitasgouvea](https://github.com/freitasgouvea)
 
 **Project Description:**
-
 This project implements a Smart Account (EIP-4337 Account Abstraction) that uses post-quantum cryptography (PQC) signatures for transaction authorization. Instead of verifying heavy PQC signatures directly on-chain, the verification is performed off-chain and proven through a zero-knowledge proof (ZK). The smart contract only validates the proof, ensuring that the account owner has authorized the UserOperation. This approach combines quantum resistance, efficiency, and compatibility with Ethereum infrastructure.
 
 **Technical Stack:**
@@ -209,9 +177,11 @@ This project implements a Smart Account (EIP-4337 Account Abstraction) that uses
 - Adapt a Smart Account contract to integrate the ZK verifier.
 - Demonstrate an end-to-end flow: UserOperation → PQC Signature → ZK Proof → On-chain Verification → Transaction Execution.
 
-**GitHub Links:**
-
+**GitHub Link:**
 [PQ Signer](https://github.com/freitasgouvea/pq-signer-go)
+
+**Other Links:**
+N/A
 
 ---
 
@@ -317,7 +287,6 @@ https://pt.overleaf.com/read/wqgjnqfqwhyw#c0f386
 - Diogo Silveira Mendonça – [@diogosmendonca](https://github.com/diogosmendonca)
 
 **Project Description:**
-
 ZKCMP (Zero-Knowledge Consent-Management Platform) is a TypeScript CLI that demonstrates the entire consent life-cycle with zero-knowledge proofs.  
 It issues a ConsentCredential containing hashed Brazilian CPF/CNPJ (or any national IDs), generates five AtomicQuerySigV2 proofs, and verifies them—all without touching a blockchain.  
 Optionally, the public Merkle-tree state can be persisted to MongoDB so proofs remain valid across sessions.
@@ -336,9 +305,7 @@ Optionally, the public Merkle-tree state can be persisted to MongoDB so proofs r
 - Let companies prove—without revealing DIDs—which data fields were authorised and when, shielding them from liability if a third-party processor is breached.
 
 **GitHub Link:**
-
 <https://github.com/diogosmendonca/zkcmp>
 
 **Other Links:**
-
-*(none)*
+N/A
