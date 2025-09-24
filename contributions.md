@@ -58,6 +58,7 @@ This is a complete list of contributions made by the program participants.
 | [Post-Quantum Smart Account](#post-quantum-smart-account) 🇧🇷                                                      | Smart Account (EIP-4337 Account Abstraction) that uses post-quantum cryptography (PQC) signatures |
 | [zkintro Portuguese Translation](#zkintro-portuguese-translation) 🇧🇷                                              | Translation of zkintro's first chapter to Brazilian Portuguese. |
 | [FHE VWAP Auction (FHEVM Full-Stack)](#fhe-vwap-auction) 🇧🇷                                    | Privacy-preserving batch auction on EVM using FHE; computes VWAP on-chain. |
+| [ZKP Minicourse](#zkp-minicourse) 🇧🇷 | ZKP minicourse in Portuguese aiming at the presentation at SBC |
 | [ZKCMP](#zkcmp) 🇧🇷 | Zero-knowledge Consent-Management CLI that issues, proves and verifies data-sharing consent totally offline with the Polygon ID JS-SDK. |
 
 ---
@@ -320,6 +321,36 @@ Privacy-preserving batch auction using Fully Homomorphic Encryption (FHE) on EVM
 
 **Other Links:**
 N/A
+
+---
+
+### ZKP Minicourse
+
+**Contributors:**
+
+- Alexandre Braga
+- Rayan Gustavo Lima - [@rayangustavo](https://github.com/rayangustavo)
+
+**Project Description:**
+This minicourse, delivered in Portuguese, introduces software developers to Zero-Knowledge Proofs (ZKPs), focusing on practical techniques and real-world frameworks to design circuits, generate and verify proofs, and integrate them into traditional software workflows. Aimed at programmers with little cryptography background, it lowers the entry barrier to ZKPs, encourages specialized training, and fosters collaboration between researchers and practitioners. The course is designed to be presented at a major conference, such as the SBC, addressing the current shortage of accessible educational resources in this field.
+
+**Technical Stack:**
+
+- LaTeX
+
+**Project Goals:**
+
+- Present zero-knowledge proof concepts and techniques to programmers with little experience in cryptography.
+- Show how ZKP frameworks can be integrated with traditional software development tools.
+- Show software developers, through simple techniques and tutorials with real tools, how to develop ZKP circuits, generate proofs, and verify them.
+- Facilitate deeper study of cryptography in the future.
+- Foster collaboration between researchers and practitioners in generating knowledge in this field.
+
+**GitHub Link:**
+[https://github.com/rayangustavo/zkp-minicurso](https://github.com/rayangustavo/zkp-minicurso)
+
+**Other Links:**
+https://pt.overleaf.com/read/wqgjnqfqwhyw#c0f386
 
 ---
 
